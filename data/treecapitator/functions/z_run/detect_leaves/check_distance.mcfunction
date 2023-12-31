@@ -5,3 +5,6 @@ execute if block ~ ~ ~ #minecraft:leaves[distance=4] if score @s tc.value matche
 execute if block ~ ~ ~ #minecraft:leaves[distance=5] if score @s tc.value matches 4 run function treecapitator:z_run/detect_leaves/summon
 execute if block ~ ~ ~ #minecraft:leaves[distance=6] if score @s tc.value matches 5 run function treecapitator:z_run/detect_leaves/summon
 execute if block ~ ~ ~ #minecraft:leaves[distance=7] if score @s tc.value matches 6 run function treecapitator:z_run/detect_leaves/summon
+execute if block ~ ~ ~ #minecraft:leaves[distance=8] if score @s tc.value matches 7 run function treecapitator:z_run/detect_leaves/summon
+execute if block ~ ~ ~ #minecraft:leaves[distance=9] if score @s tc.value matches 8 run function treecapitator:z_run/detect_leaves/summon
+execute if block ~ ~ ~ #minecraft:leaves[distance=10] if score @s tc.value matches 9 run function treecapitator:z_run/detect_leaves/summon
